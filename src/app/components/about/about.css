@@ -1,0 +1,89 @@
+.about-content {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.profile-pic .image {
+  border: 4px solid white;
+  border-radius: 4px;
+}
+
+.description {
+  flex: 2;
+  padding: 1rem;
+}
+
+.description p {
+  margin-top: 1.5rem;
+}
+
+.description li {
+  margin-top: 1rem;
+}
+
+#age {
+  margin-top: 0;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 2rem;
+  width: 20rem;
+  justify-content: space-evenly;
+}
+
+ .contact {
+  padding: 1rem;  
+  width: 100vw;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.contact .contact-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  /* margin-left: 4rem; */
+} 
+
+.contact .contact-logos img {
+  padding: 0.5rem;
+}
+
+.projects-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.projects-button:hover {
+  background-color: #0056b3;
+ }
+
+ .cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ }
+
+ .cv-button:hover {
+  background-color: #0056b3;
+ }

@@ -1,0 +1,101 @@
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.projects-content h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 80vw;
+}
+
+.project-card {
+  background-color: #2C2C2C;
+  width: 18rem;
+  height: 26rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.project-card h4 {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #3D3D3D;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.tec-logos {
+  align-self: center;
+  padding: 1rem;
+}
+
+.tec-logos img {
+  padding: 0.5rem;
+}
+
+.cover-image {
+  align-self: center;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.repo-deploy-button {display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.repo-deploy-button:hover {
+  background-color: #0056b3;
+ }
+
+ .project-description {
+  text-align: center;
+  font-size: medium;
+ }
+
+ .project-obs {
+  font-size: small;
+  padding-top: 1rem;
+ }
+
+@media screen and (max-width: 1024px) {
+  .projects-content {
+    flex-wrap: wrap;
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-content {
+    flex-wrap: wrap;
+  }
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
