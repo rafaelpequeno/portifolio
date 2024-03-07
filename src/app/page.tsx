@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import Title from "./components/title/title";
 import About from "./components/about/about";
